@@ -24,3 +24,4 @@ Alternatively you can use the download method to fetch an e-book individually an
 * Find or write a fast and easily searched library manifest format
 * Create search function to search the catalog for robust downloading
 * Way to manage metadata to improve, addto, and clean up the current data
+* Abstract code to be reusable for other e-book repositories
