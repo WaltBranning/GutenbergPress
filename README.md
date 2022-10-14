@@ -14,6 +14,10 @@ Alternatively you can use the download method to fetch an e-book individually an
 
 `book.download(bookid)`
 
+## Immediate Goals
+
+* Allow automatic retrieval of most recent catalog if no catalog file provided
+* Start writing documentation
 
 ## Future Implementations
 
