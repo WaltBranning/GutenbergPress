@@ -6,13 +6,12 @@ This project currently has two main functionality goals in mind: a simple comman
 Currently its pre-alpha concept phase takes the csv Project Gutenberg catalog found at https://www.gutenberg.org/cache/epub/feeds/pg_catalog.csv.
 initializes the DownloadBook class with the catalog and optional destination directory (defaults to current working directory).
 
-`book = DownloadBook('pg_catalog.csv', dest_dir)`
+`book = DownloadBook(catalog, dest_dir)`
 
-To download a create a local library it uses the `buildLibrary()` method. In this current state takes a list of catalog id numbers and iterates over the list writing the files to the destination directory and creating a `library.manifest` of downloaded items.
+To download and create a local library it uses the `buildLibrary()` method. In this current state takes a list of catalog id numbers and iterates over the list writing the files to the destination directory and creating a `library.manifest` of downloaded items.
 
-Alternatively you can use the download method to fetch an e-book individually and write the file to destination directory
+Alternatively you can use the `book.download(bookid)` method to fetch an e-book individually and write the file to destination directory.
 
-`book.download(bookid)`
 
 ## Immediate Goals
 
